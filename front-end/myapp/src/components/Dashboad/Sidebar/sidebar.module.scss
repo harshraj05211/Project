@@ -1,0 +1,31 @@
+.container{
+    background-color: #3C3D43;
+    height: 100vh;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+
+    .pencil{
+        padding: 5px;
+    }
+
+    .home{
+        display: flex;
+        flex-direction: column;
+        height: 85%;
+        justify-content: center;
+        
+        img{
+            margin: 10px;
+        }
+    }
+
+    .exit{
+        .ig{
+            height: 32px;
+            width: 32px;
+        }
+    }
+}

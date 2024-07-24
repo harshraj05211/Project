@@ -1,0 +1,42 @@
+:root{
+
+    //Font Size
+    --fs-sm : 14px;
+    --fs-md : 16px;
+    --fs-lg : 18px;
+    --fs-xl: 22px;
+    --fs-xxl: 24px;
+    --fs-xxl: 28px;
+
+    //Font Weight
+
+    --fw-light: 400;
+    --fw-normal: 500;
+    --fw-medium : 550;
+    --fw-bold: 600;
+
+    //BOrder Radius
+    --br-sm: 5px;
+
+    //color
+
+    --black : #3C3D43;
+    --white : #ffffff;
+    --rose: #FDBAA3;
+    --creame-white: #FFFDFA;
+    --sem-red : #F7685C;
+    --sem-green : #30C58D;
+    --grey : #808080;
+
+}
+
+
+.light{
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.dark{
+    background-color: var(--black);
+    color: var(--white);
+}
